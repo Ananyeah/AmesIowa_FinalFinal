@@ -1,19 +1,20 @@
-Domain Background
-In this section, provide brief details on the background information of the domain
-from which the project is proposed. Historical information relevant to the project
-should be included. It should be clear how or why a problem in the domain can
-or should be solved. Related academic research should be appropriately cited in
-this section, including why that research is relevant.
-Problem Statement
-In this section, you will want to clearly define the problem that you are trying to
-solve, including the strategy (outline of tasks) you will use to achieve the desired
-solution. You should also thoroughly discuss what the intended solution will be
-for this problem. Questions to ask yourself when writing this section:
-• Is the problem statement clearly defined? Will the reader understand what
-you are expecting to solve?
-• Have you thoroughly discussed how you will attempt to solve the problem?
-• Is an anticipated solution clearly defined? Will the reader understand what
-results you are looking for?
+## Domain Background
+This dataset has information on credit line and payments for customers from Taiwan for a series of months.
+The purpose of this data set is to explore and find the defaulters before they default.
+
+
+## Problem Statement
+The problem to solve is to find if a customer will default or not (Yes / No)
+The strategy towards building the model would be this:
+
+1. Reading, cleaning the data
+2. Setting the categoricals / numericals
+3. Scaling and transforming the data
+4. EDA on the data to find the best predictors
+5. Setting a benchmark
+6. Running a classification model
+7. Seeing how it performs
+
 Metrics
 In this section, you will need to clearly define the metrics or calculations you
 will use to measure performance of a model or result in your project. These
